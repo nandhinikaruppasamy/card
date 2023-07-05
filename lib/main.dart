@@ -73,17 +73,21 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(color: Colors.teal),
                           decoration: InputDecoration(
                             labelText: '+229 96119149',
-                            prefixIcon: Icon(
-                              Icons.call,
-                              color: Colors.teal,
+                            prefixIcon: Container(
+                              padding: const EdgeInsets.only(right: 26.0),
+                              child: Icon(
+                                Icons.call,
+                                color: Colors.teal,
+                              ),
                             ),
-                            contentPadding: const EdgeInsets.symmetric(
-                              vertical: 10.0,
-                              horizontal: 20.0,
-                            ),
+                            contentPadding:
+                                const EdgeInsets.fromLTRB(50.0, 0.0, 0.0, 0.0),
                             fillColor: Colors.white,
                             filled: true,
                             labelStyle: TextStyle(color: Colors.teal),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(4.0),
+                            ),
                           ),
                         ),
                       ),
@@ -97,9 +101,12 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(color: Colors.teal),
                           decoration: InputDecoration(
                             labelText: 'fadcrepin@gmail.com',
-                            prefixIcon: Icon(
-                              Icons.email,
-                              color: Colors.teal,
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.only(right: 26.0),
+                              child: Icon(
+                                Icons.email,
+                                color: Colors.teal,
+                              ),
                             ),
                             contentPadding: const EdgeInsets.symmetric(
                               vertical: 10.0,
@@ -108,6 +115,9 @@ class MyApp extends StatelessWidget {
                             fillColor: Colors.white,
                             filled: true,
                             labelStyle: TextStyle(color: Colors.teal),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(4.0),
+                            ),
                           ),
                         ),
                       ),
