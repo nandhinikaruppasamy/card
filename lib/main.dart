@@ -68,20 +68,19 @@ class MyApp extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 30.0),
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 39.0),
+                        padding: const EdgeInsets.only(left: 39.0, right: 39.0),
                         child: TextField(
                           style: TextStyle(color: Colors.teal),
                           decoration: InputDecoration(
                             labelText: '+229 96119149',
                             prefixIcon: Container(
-                              padding: const EdgeInsets.only(right: 26.0),
+                              padding: const EdgeInsets.only(
+                                  left: 26.0, right: 26.0),
                               child: Icon(
                                 Icons.call,
                                 color: Colors.teal,
                               ),
                             ),
-                            contentPadding:
-                                const EdgeInsets.fromLTRB(50.0, 0.0, 0.0, 0.0),
                             fillColor: Colors.white,
                             filled: true,
                             labelStyle: TextStyle(color: Colors.teal),
@@ -96,13 +95,14 @@ class MyApp extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 30.0),
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 39.0),
+                        padding: const EdgeInsets.only(left: 39.0, right: 39.0),
                         child: TextField(
                           style: TextStyle(color: Colors.teal),
                           decoration: InputDecoration(
                             labelText: 'fadcrepin@gmail.com',
                             prefixIcon: Padding(
-                              padding: const EdgeInsets.only(right: 26.0),
+                              padding: const EdgeInsets.only(
+                                  right: 26.0, left: 26.0),
                               child: Icon(
                                 Icons.email,
                                 color: Colors.teal,
