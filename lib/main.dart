@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                         thickness: 1.0,
                       ),
                     ),
-                    SizedBox(height: 50),
+                    SizedBox(height: 15.0),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 30.0),
                       child: Padding(
