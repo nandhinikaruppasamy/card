@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
                             labelText: '+229 96119149',
                             prefixIcon: Container(
                               padding: const EdgeInsets.only(
-                                  left: 26.0, right: 26.0),
+                                  left: 14.0, right: 26.0),
                               child: Icon(
                                 Icons.call,
                                 color: Colors.teal,
@@ -102,7 +102,7 @@ class MyApp extends StatelessWidget {
                             labelText: 'fadcrepin@gmail.com',
                             prefixIcon: Padding(
                               padding: const EdgeInsets.only(
-                                  right: 26.0, left: 26.0),
+                                  right: 26.0, left: 14.0),
                               child: Icon(
                                 Icons.email,
                                 color: Colors.teal,
