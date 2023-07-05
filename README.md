@@ -1,4 +1,4 @@
-# card_view
+# card view
 
 A new Flutter project.
 
